@@ -53,5 +53,5 @@ export default {
     },
   },
 
-  serverMiddleware: ['~/api/index.ts'],
+  serverMiddleware: [{ path: '/api', handler: '~/api/index.ts' }],
 }
