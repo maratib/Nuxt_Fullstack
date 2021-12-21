@@ -4,7 +4,7 @@
 import express from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
-import { itemsController } from './controllers/items.controller'
+import { userController } from './controllers/users.controller'
 
 /**
  * App Variables
@@ -27,7 +27,7 @@ app.get('/', (req: any, res: any) => {
 /**
  * Server Activation
  */
-app.use('/items', itemsController)
+app.use('/users', userController)
 
 // app.use(errorHandler)
 // app.use(notFoundHandler)
