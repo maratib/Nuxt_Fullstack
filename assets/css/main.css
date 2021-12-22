@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* layer base preset */
+/* follwing when compiled will be inserted at the end of base styles */
+@layer base {
+  @font-face {
+    font-family: Oswald;
+    src: url(@/assets/fonts/Oswald/Oswald-Bold.ttf) format('​truetype​');
+  }
+
+  body {
+    @apply bg-gray-100;
+  }
+  h1 {
+    @apply text-5xl font-headline text-myRed;
+  }
+  h2 {
+    @apply text-3xl text-myBlue;
+  }
+  h3 {
+    @apply text-2xl text-myLime;
+  }
+  h4 {
+    @apply text-xl;
+  }
+}
