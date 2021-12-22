@@ -4,6 +4,7 @@
 
 
 ### Resources
-(HeroIcons)['https://heroicons.com/']
+[HeroIcons]('https://heroicons.com/')
+
 
 
