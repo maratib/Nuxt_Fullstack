@@ -3,7 +3,7 @@
 
 
 
-### Resources
+### Resources:
 [HeroIcons](https://heroicons.com/)
 
 
